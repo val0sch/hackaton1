@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hackaton1/static/css/main.6f31e2f5.css",
+    "main.js": "/hackaton1/static/js/main.5b53dfd9.js",
+    "static/media/music.mp3": "/hackaton1/static/media/music.4b88a046720f11cc19f4.mp3",
+    "static/media/team.jpg": "/hackaton1/static/media/team.c23bd20cc4d69ac5109d.jpg",
+    "static/media/copie_background.jpg": "/hackaton1/static/media/copie_background.aa76d52002da36b82cff.jpg",
+    "static/media/background730.jpg": "/hackaton1/static/media/background730.65001594dfa16ddfed5a.jpg",
+    "static/media/planet.jpg": "/hackaton1/static/media/planet.60a56d68c4d96fdea042.jpg",
+    "static/media/zLogo.png": "/hackaton1/static/media/zLogo.d426577907c892b5f816.png",
+    "static/media/dechetElctro.jpg": "/hackaton1/static/media/dechetElctro.08f3a662e33e54110c6f.jpg",
+    "static/media/conpost.jpg": "/hackaton1/static/media/conpost.a0396e717db1149e716c.jpg",
+    "static/media/recypil.jpg": "/hackaton1/static/media/recypil.353200f06071ba148282.jpg",
+    "static/media/recytel.jpg": "/hackaton1/static/media/recytel.29402a73f391ebe61d7f.jpg",
+    "static/media/iconMusic.png": "/hackaton1/static/media/iconMusic.7e0880038bea20b47e57.png",
+    "static/media/recylab.jpg": "/hackaton1/static/media/recylab.95e59ed23a1496d57b1d.jpg",
+    "static/media/recyled.jpg": "/hackaton1/static/media/recyled.cc0c674cd659530f5435.jpg",
+    "index.html": "/hackaton1/index.html",
+    "main.6f31e2f5.css.map": "/hackaton1/static/css/main.6f31e2f5.css.map",
+    "main.5b53dfd9.js.map": "/hackaton1/static/js/main.5b53dfd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f31e2f5.css",
+    "static/js/main.5b53dfd9.js"
+  ]
+}
