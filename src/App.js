@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import papa from "papaparse";
 import "./assets/App.css";
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import "./assets/Home.css";
@@ -10,18 +10,17 @@ import Nav from "./components_Fathers/Nav";
 import Footer from "./components_Fathers/Footer";
 import Music from "./components_Fathers/Music";
 
-
 const App = () => {
   const [apiBdHackathon, setApiBdHackathon] = useState(null);
   const API =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vRLSgkrDdiA68XL2xzb5tsZvByO0hWoJbE7zi6kGXDaAx7w5BPTorE9LW4MHZutyouq3DXrpZCIqWl6/pub?output=csv";
   const convertData = (data) => {
+    // eslint-disable-next-line
     const json = data.map((line, index) => {
       if (index > 0) {
         let obj = {};
         data[0].forEach((key, j) => (obj = { ...obj, [key]: line[j] }));
         return obj;
-        
       }
     });
     json.shift();
@@ -34,18 +33,17 @@ const App = () => {
       .then((result) => result.text())
       .then((text) => papa.parse(text))
       .then((data) => convertData(data.data));
-      
   }, []);
 
-  if(!apiBdHackathon){
-    return <p>Loading...</p>
+  if (!apiBdHackathon) {
+    return <p>Loading...</p>;
   }
-  
+
   return (
     <div className="app-div-container">
       <div className="app-div-container-body">
         <Nav />
-    <Music />
+        <Music />
         <Routes>
           <Route
             path="/"
